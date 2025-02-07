@@ -63,7 +63,7 @@ jobs:
 
       # Download the build artifact
       - name: Download Build Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: Build artifact
           path: ${{github.workspace}}
