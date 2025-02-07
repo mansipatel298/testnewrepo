@@ -15,7 +15,7 @@ on:
    # Triggers the workflow based on a schedule
   schedule:
     # Runs at 11:05 AM UTC every day
-    - cron: "3 11 * * *"
+    - cron: "35 5 * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
